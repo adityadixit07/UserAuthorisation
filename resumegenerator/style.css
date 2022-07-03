@@ -1,0 +1,21 @@
+
+#cv-template{
+    display: none;
+}
+.my-img{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 50%;
+}
+.background{
+    background-color: #eee;
+}
+li{
+    color:#020234;
+}
+h1{
+    color:#020234;
+}
+h3{
+    color:#020234;
+}
