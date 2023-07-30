@@ -19,6 +19,6 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 
-app.get("/",()=>{
-    console.log('server is running....');
+app.get('/',(req,res)=>{
+    res.send(`<h1>Server is working......API is working fine and use it now everywhere</h1>`)
 })
