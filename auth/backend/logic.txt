@@ -1,0 +1,27 @@
+--------------------REGISTER----------------
+
+We’ll be implementing these two routes in our application. We will be using JWT to sign the credentials and bycrypt to encrypt the password before storing them in our database.
+
+From the /register route, we will:
+
+    Get user input.
+    Validate user input.
+    Validate if the user already exists.
+    Encrypt the user password.
+    Create a user in our database.
+    And finally, create a signed JWT token.
+
+
+---------------LOGIN---------------
+
+For the /login route, we will:
+
+    Get user input.
+    Validate user input.
+    Validate if the user exists.
+    Verify user password against the password we saved earlier in our database.
+    And finally, create a signed JWT token.
+
+
+
+------------middleware for authentication protection
