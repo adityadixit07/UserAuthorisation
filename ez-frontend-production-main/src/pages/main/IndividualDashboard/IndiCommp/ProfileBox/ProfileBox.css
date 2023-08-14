@@ -1,0 +1,65 @@
+.profile-box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #E4F2E9;
+  border-radius: 10px;
+}
+
+.box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 128px;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 20px;
+  padding: 5px;
+  overflow-x: auto;
+}
+
+.box-container::-webkit-scrollbar {
+  width: 0;
+  height: 0px;
+}
+
+.profileboxcont {
+  min-width: 156px;
+  height: 110px;
+  border-radius: 10px;
+}
+
+.box2nd {
+  width: 156px;
+  height: 110px;
+  background: #FFF3FC;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.box3 {
+  width: 156px;
+  height: 110px;
+  background: #F3F9FF;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.box4 {
+  width: 156px;
+  height: 110px;
+  background: #FFF7F3;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.box5 {
+  width: 156px;
+  height: 110px;
+
+  background: #F4FFF3;
+  border-radius: 10px;
+  margin-right: 5px;
+}

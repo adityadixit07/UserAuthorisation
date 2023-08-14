@@ -1,0 +1,68 @@
+.commap {
+  /* position: absolute; */
+  /* width: 918px; */
+  width: 100%;
+  height: 157px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  display: flex;
+}
+
+.globe-img {
+  width: 160px;
+  height: 160px;
+  /* margin-left: 180px; */
+}
+
+.comtext {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  color: black;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.comsubtext-container {
+  /* position: absolute; */
+
+  margin-left: 10px;
+}
+
+.ez-img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: calc(50% + 300px);
+  top: calc(30% + 6px);
+}
+
+.comsubtext {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: black;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .commap {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 8px 10px;
+  }
+
+  .comtext {
+    width: 100%;
+  }
+
+  .comsubtext-container {
+    width: 100%;
+  }
+}

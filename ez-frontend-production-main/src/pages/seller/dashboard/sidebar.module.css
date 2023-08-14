@@ -1,0 +1,68 @@
+.main_sidebar_logo {
+  width: auto;
+}
+
+.dashboard_sidebar_nav ul {
+  list-style-type: none;
+}
+
+.dashboard_sidebar_nav ul li {
+  width: 100%;
+  margin: 4px 0px;
+}
+
+.dashboard_sidebar_nav ul li a,
+.user_btn_dash {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  border-radius: 2px;
+  font-weight: 500;
+  border-left: 3px solid transparent;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+/* Light Theme CSS */
+.dashboard_sidebar_nav ul li a:hover,
+.user_btn_dash:hover {
+  box-shadow: 1px 1px 10px hsla(0, 0%, 12%, 0.11);
+  background: #1eb763;
+  transition: all 1000ms;
+}
+
+.user_btn_active {
+  box-shadow: 1px 1px 10px hsla(0, 0%, 12%, 0.11);
+  background: #1eb763;
+  transition: all 1000ms;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.dashboard_sidebar_nav ul li a:hover span,
+.user_btn_active span,
+.user_btn_active svg,
+.dashboard_sidebar_nav ul li a:hover svg {
+  color: #fff;
+}
+
+.dashboard_sidebar_nav ul li a:hover > .dashboard_sidebar_nav ul li a span {
+  color: #000 !important;
+}
+
+@media (max-width: 976px) {
+  .dashboard_sidebar_nav ul li a,
+  .user_btn_dash {
+    padding: 8px 0px;
+  }
+
+  .user_btn_dash svg {
+    height: 1.4rem;
+    width: 1.4rem;
+  }
+
+  .user_btn_dash_dropdown a {
+    padding: 10px !important;
+  }
+}

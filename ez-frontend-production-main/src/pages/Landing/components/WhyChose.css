@@ -1,0 +1,60 @@
+.box_shadow {
+    box-shadow: rgb(16, 58, 9) -15px 15px, rgb(21, 55, 5) -25px 25px;
+    animation: top 10s linear 0s infinite;
+}
+@keyframes top {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-70px);
+    }
+}
+.box_shadow1{
+    box-shadow: rgb(16, 58, 9) 15px 15px, rgb(21, 55, 5) 25px 25px;
+    animation: down 5s linear 0s infinite;
+}
+@keyframes down{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(50px);
+    }
+    50%{
+        transform: translateY(100px);
+    }
+}
+@media screen and (max-width: 768px) {
+    .box_shadow {
+        box-shadow: rgb(16, 58, 9) -5px 5px, rgb(21, 55, 5) -10px 10px;
+    }
+    .box_shadow1{
+        box-shadow:rgb(16, 58, 9) -5px 5px, rgb(21, 55, 5) -10px 10px;
+    }
+    @keyframes top {
+        0%{
+            transform: translateY(0px);
+        }
+        25%{
+            transform: translateY(-15px);
+        }
+        50%{
+            transform: translateY(-65px);
+        }
+    }
+    @keyframes down{
+        0%{
+            transform: translateY(0px);
+        }
+        25%{
+            transform: translateY(40px);
+        }
+        50%{
+            transform: translateY(60px);
+        }
+    }
+}

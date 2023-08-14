@@ -1,0 +1,179 @@
+.navbar-bg {
+  background: rgba(237, 237, 237, 0.697);
+  position: relative;
+}
+
+.navBarContainer {
+  display: flex;
+  flex-direction: row;
+  flex-direction: row;
+  align-items: center;
+  background: #d9d9d9;
+  justify-content: space-around;
+  padding: 1rem 4rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.search-box span svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.navBarContainer-left input {
+  outline: none;
+  background: #fbfbfb;
+  border: 1px solid #003902;
+  font-size: 16px;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  padding-left: 3rem;
+}
+
+.navBarContainer-left svg {
+  font-size: 19px;
+  margin-right: -2rem;
+  z-index: 100;
+}
+
+.navBarContainer-middle {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: fixed; */
+}
+
+.navBarContainer-middle ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+}
+
+.navBarContainer-middle ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBarContainer-middle ul li svg {
+  font-size: 22px;
+  color: #003902;
+}
+
+.onvisit:visited {
+  display: block;
+}
+
+.onvisit:visited span {
+  height: 40px;
+  width: 40px;
+  background: #176a1a;
+}
+
+.navBarContainer-middle ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: #003902;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.navBarContainer-middle ul li a.active {
+  color: #62cb99;
+}
+
+.navBarContainer-middle ul li a:hover {
+  color: #62cb99;
+}
+
+.navBarContainer-middle ul li a svg {
+  font-size: 22px;
+}
+
+.navBarContainer-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navBarContainer-right input {
+  outline: none;
+  background: #ffffff;
+  border: 1px solid #003902;
+  font-size: 14px;
+  padding: 0.4rem;
+  border-radius: 16px;
+  padding-left: 2.5rem;
+  margin-right: 1.5rem;
+}
+
+.navBarContainer-right svg {
+  font-size: 30px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.navBarContainer-right svg:first-child {
+  font-size: 19px;
+  margin-right: -2rem;
+  z-index: 100;
+}
+
+.navBarContainer-right img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.lower_navbar {
+  background: #021c08;
+}
+
+.lower_navbar a {
+  color: #003902;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 15px;
+  padding: 6px 16px;
+  background: #ffffff;
+  box-shadow: inset 0px 0px 23px 4px #b5b5b5a7;
+}
+
+.lower_navbar a span {
+  white-space: nowrap;
+}
+
+.lower_navbar a:hover {
+  box-shadow: inset 0px 0px 23px 4px #43a576af;
+}
+
+@media screen and (max-width: 576px) {
+  .navBarContainer-middle {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0%;
+    background: #048e4b;
+    padding: 12px;
+    color: #c7c5c5;
+    z-index: 1000;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navBarContainer-middle ul li svg {
+    font-size: 22px;
+    color: #e7e7e7;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lower_navbar a {
+    padding: 8px 16px;
+  }
+}

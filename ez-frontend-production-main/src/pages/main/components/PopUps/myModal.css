@@ -1,0 +1,87 @@
+.linkContainer {
+  height: 20vw;
+}
+
+.modal-wrapper {
+  width: 500px;
+  height: 2vh;
+  display: flex;
+}
+
+.setting {
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+#tags {
+  width: 600px;
+  margin-top: 100px;
+}
+
+.buttons {
+  border-top: grey solid 1px;
+  display: flex;
+  position: relative;
+}
+
+.buttons div {
+  width: 5vw;
+  height: 2.5vh;
+  border-radius: 2rem;
+  padding: 5px;
+}
+
+.closeBtn {
+  width: 3rem;
+  display: flex;
+  align-self: flex-start;
+}
+
+.forWhom {
+  border: 1px solid white;
+}
+
+.photoUploader{
+  display: flex;
+  flex-direction: row;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 100%;
+}
+
+button img {
+  filter: grayscale(100%);
+  width: 100px;
+  height: 100px;
+}
+
+.modal-content {
+  background-color: rgb(86, 87, 87);
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.placeholder{
+  width: 775px;
+  height: 700px;
+}
+@media screen and (max-width : 412px) {  
+  .placeholder{
+    width: 400px;
+    height: auto;
+    background-color: #3C3C3C;
+  }
+  .linkPopup{
+    width: 350px;
+  }
+
+}

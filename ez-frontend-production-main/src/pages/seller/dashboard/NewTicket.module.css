@@ -1,0 +1,52 @@
+.custom_file {
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  color: #bf2bb0;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px dashed #cc8bc6;
+}
+
+.custom_file_dark {
+  background-color: #334155;
+}
+
+.custom_file_light {
+  background-color: #ffeafc;
+}
+
+.form_light input {
+  background-color: #ffffff;
+}
+
+.form_light textarea {
+  background-color: #ffffff;
+}
+
+.form_dark input,
+.form_dark select,
+.form_light input,
+.form_light select {
+  height: 40px;
+}
+
+.form_dark input,
+.form_dark textarea {
+  background-color: rgb(51, 65, 85);
+  border: 1px solid #6a686a;
+}
+
+.form_dark select,
+.form_dark select option {
+  background-color: transparent;
+  color: #49e6b2;
+}
+
+.form_dark select option {
+  background-color: #334155;
+}
+
+.form_dark input {
+  color: #ffffff !important;
+}

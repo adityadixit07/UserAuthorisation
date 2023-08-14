@@ -1,0 +1,101 @@
+[
+    {
+        "id": 0,
+        "name": "keith Mcthet",
+        "heading": "Heritage Responds: Taking positive action on climate change",
+        "news": "As the world turns its eyes to COP26 in Glasgow, Heritage Responds highlights the positive contribution heritage organizations and their partners are making to the climate change debate and the actions needed to adapt to a changing world.",
+        "date": "Apr 9",
+        "timing": "7 min read",
+        "hashtag": "startup india "
+    },
+    {
+        "id": 1,
+        "name": "Donad boyd",
+        "heading": "Building the Future: The Role of Heritage in the Sustainable Development of Yangon",
+        "news": "This commemorative publication celebrates ten years of the WMF/Knoll Modernism Prize, highlighting this year's winner, the first-ever Special Mention recipient, and a look at highlights from the history of the prize.",
+        "date": "Apr 5",
+        "timing": "3 min read",
+        "hashtag": "Education"
+    },
+    {
+        "id": 2,
+        "name": "Donald Trump",
+        "heading": "Heritage, Education, and Urban Resilience: Building Alternative Futures in Port-au-Prince, Haiti",
+        "news": "In April 2017, the Shijo-cho Ofunehoko Community Center revitalization project was completed and unveiled to the public. This is the third Kyomachiya project to receive support from World Monuments Fund",
+        "date": "March 28",
+        "timing": "9 min read",
+        "hashtag": "Artificial Intelligence"
+    },
+    {
+        "id": 3,
+        "name": "Macron dassy",
+        "heading": "Heritage, Tourism, and Urbanization: The Landscape Development of Lalibela, Ethiopia",
+        "news": "This issue of the Watch Magazine brings you updates from our sites and projects around the world, as told by some of the trainees, advocates, and conservators who are helping WMF restore and steward them. ",
+        "date": "March 25",
+        "timing": "9 min read",
+        "hashtag": "Robotics"
+    },
+    {
+        "id": 4,
+        "name": "Sophia Lopez",
+        "heading": "Exploring Ancient Mysteries: The Hidden Treasures of Machu Picchu, Peru",
+        "news": "In this edition of Traveler's Paradise, we take you on a captivating journey through the secrets and wonders of Machu Picchu. Join us as we unveil the untold stories behind the ancient ruins and the preservation efforts undertaken by dedicated archaeologists and local communities.",
+        "date": "May 12",
+        "timing": "12 min read",
+        "hashtag": "Archaeology"
+    },
+    {
+        "id": 5,
+        "name": "Amelia Johnson",
+        "heading": "Exploring the Ancient Ruins: Uncovering Lost Civilizations in the Amazon Rainforest",
+        "news": "In this edition of our Explorer's Journal, we take you on a thrilling expedition deep into the heart of the Amazon rainforest. Join our team of archaeologists as they unearth the mysteries of ancient civilizations that have been lost for centuries. Prepare to be amazed by the incredible discoveries and untold stories that await!",
+        "date": "April 12",
+        "timing": "12 min read",
+        "hashtag": "Archaeology"
+    },
+    {
+        "id": 6,
+        "name": "Oliver Patel",
+        "heading": "Sustainable Farming Practices: Enhancing Food Security and Environmental Conservation",
+        "news": "Discover how innovative farming techniques and sustainable practices are revolutionizing agriculture in this insightful issue of Green Earth Magazine.",
+        "date": "May 5",
+        "timing": "10 min read",
+        "hashtag": "Sustainability"
+    },
+    {
+        "id": 7,
+        "name": "Emma Thompson",
+        "heading": "Reviving Traditional Crafts: The Art of Handloom Weaving in Varanasi, India",
+        "news": "Step into the world of handloom weaving and witness the revival of ancient textile traditions in the vibrant city of Varanasi. Join us on this cultural journey in Threads Magazine.",
+        "date": "June 15",
+        "timing": "12 min read",
+        "hashtag": "Craftsmanship"
+    },
+    {
+        "id": 8,
+        "name": "Lucas Hernandez",
+        "heading": "Preserving Marine Biodiversity: Conservation Efforts in the Great Barrier Reef",
+        "news": "Dive into the breathtaking underwater world of the Great Barrier Reef and learn about the ongoing conservation initiatives that aim to protect this fragile ecosystem. Discover more in Oceanscape Magazine.",
+        "date": "July 3",
+        "timing": "11 min read",
+        "hashtag": "MarineLife"
+    },
+    {
+        "id": 9,
+        "name": "Isabella Ramirez",
+        "heading": "The Art of Gastronomy: Exploring Culinary Delights of Tokyo's Street Food Scene",
+        "news": "Indulge your taste buds in a mouthwatering adventure through Tokyo's bustling street food markets, where savory flavors and cultural traditions blend harmoniously. Savor the experience in Foodie Chronicles Magazine.",
+        "date": "August 20",
+        "timing": "9 min read",
+        "hashtag": "FoodCulture"
+    },
+    {
+        "id": 10,
+        "name": "Liam Wilson",
+        "heading": "Unveiling Ancient Mysteries: Journey to the Lost City of Petra, Jordan",
+        "news": "Embark on a captivating expedition to the hidden city of Petra, where rock-cut architecture and rich history intertwine. Join us as we unveil the secrets of this archaeological wonder in Ancient Explorations Magazine.",
+        "date": "September 12",
+        "timing": "10 min read",
+        "hashtag": "Archaeology"
+    }
+]

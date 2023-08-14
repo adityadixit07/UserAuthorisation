@@ -1,0 +1,101 @@
+
+[
+    {
+        "category": "Content creators",
+        "subcategory": [
+            "bloggers",
+            "writers",
+            "journalists",
+            "video creators",
+            "podcasters"
+        ]
+    },
+    {
+        "category": "Designers",
+        "subcategory": [
+            "graphic designers",
+            "UX/UI designers",
+            "web designers"
+        ]
+    },
+    {
+        "category": "Developers",
+        "subcategory": [
+            "front-end developers",
+            "back-end developers",
+            "full-stack developers"
+        ]
+    },
+    {
+        "category": "Business owners",
+        "subcategory": [
+            "small business owners",
+            "entrepreneurs",
+            "executives"
+        ]
+    },
+    {
+        "category": "Marketers",
+        "subcategory": [
+            "digital marketers",
+            "social media marketers",
+            "SEO specialists"
+        ]
+    },
+    {
+        "category": "Marketing managers",
+        "subcategory": [
+            "marketing managers",
+            "content marketing managers",
+            "social media marketing managers"
+        ]
+    },
+    {
+        "category": "Marketing analysts",
+        "subcategory": [
+            "marketing analysts",
+            "content marketing analysts",
+            "social media marketing analysts"
+        ]
+    },
+    {
+        "category": "Students",
+        "subcategory": [
+            "High school Student",
+            "College Student",
+            "Graduate Student"
+        ]
+    },
+    {
+        "category": "Researchers",
+        "subcategory": [
+            "academic researchers",
+            "data scientists",
+            "statisticians"
+        ]
+    },
+    {
+        "category": "Educators",
+        "subcategory": [
+            "teachers",
+            "teacher assistants",
+            "teacher educators"
+        ]
+    },
+    {
+        "category": "Lawyers",
+        "subcategory": [
+            "lawyers",
+            "law firms",
+            "law firm managers"
+        ]
+    },
+    {
+        "category": "Healthcare professionals",
+        "subcategory": [
+            "healthcare professionals",
+            "healthcare providers",
+            "healthcare managers"
+        ]
+    }
+]

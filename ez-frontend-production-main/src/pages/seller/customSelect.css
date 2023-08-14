@@ -1,0 +1,4 @@
+.custom-multi-select,
+.select_multi__control {
+  min-height: 48px !important;
+}

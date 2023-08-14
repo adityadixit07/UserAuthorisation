@@ -1,0 +1,86 @@
+.scrollbar1{
+scrollbar-width: 0;
+scrollbar-color: transparent;
+color: rgba(0, 128, 0, 0.574);
+}
+
+.pbar{
+  width: 300px;
+}
+
+.box {
+  width: 40px;
+  height: 17px;
+  background: gray;
+  position: relative;
+  border-radius: 10px;
+}
+.box input[type=checkbox]{
+   visibility: hidden;
+   
+ }
+  
+  .slider {
+      display: block;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      transition: all .6s ease;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      left: 2px;
+      background: #333333;
+    
+  }
+  
+  .box input[type=checkbox]:checked + .checking {
+      left: 23px;
+      background: #f7f7f7;
+    
+  }
+  
+  .checkbox-ui {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .checkbox-ui label {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .checkbox-ui input {
+    display: none;
+  }
+  
+  .checkbox-ui span {
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    /* border-radius: 5px; */
+    cursor: pointer;
+  }
+  
+  .checkbox-ui span.checked {
+    background-color: #000;
+    color: #fff;
+  }
+  
+ 
+  .customeditor .ql-editor {
+    font-size: 16px;
+   
+  }
+  
+  /* Example: Change the background color of the toolbar */
+  .customeditor .ql-toolbar {
+    background-color: #e2d9d9;
+border-radius: 10px 10px 0px 0px;
+  }
+  
+  /* Example: Style the toolbar buttons */
+  .customeditor .ql-toolbar .ql-picker-label {
+    color: #333;
+    font-weight: bold;
+  }

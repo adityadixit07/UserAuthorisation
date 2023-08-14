@@ -1,0 +1,7 @@
+.stepper_Class svg {
+  color: #686565;
+  font-size: 28px;
+}
+.stepper_Class .Mui-active {
+  color: #000 !important;
+}

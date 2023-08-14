@@ -1,0 +1,35 @@
+hr{
+    border:5px solid white;
+}
+.vl {
+    border-left: 6px solid #D9D9D9;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    width: 3px;
+  }
+
+
+.i{
+  object-fit: cover;
+}
+.img1{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.btn-input{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  border: none;
+  background: #E7E7E7;
+  color: #000;
+}

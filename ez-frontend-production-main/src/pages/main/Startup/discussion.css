@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap');
+
+
+.popin {
+    font-family: 'Poppins', sans-serif;
+}
+
+.discusbg {
+    background: linear-gradient(0deg, rgba(45, 65, 89, 0.2), rgba(45, 65, 89, 0.2)),linear-gradient(0deg, #E6F3E9, #E6F3E9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.downturn{
+    background: linear-gradient(0deg, rgba(221, 251, 244, 0.3), rgba(221, 251, 244, 0.3)),linear-gradient(0deg, #E4E4E4, #E4E4E4);
+    border: 1px solid #E4E4E4;
+    border-radius: 7px;
+
+}
+.textdown{
+    font-size: 80%;
+    font-weight: 300;
+}
+.shadowing{
+    box-shadow: 0 2px 2px 1px rgb(192, 190, 190);
+}

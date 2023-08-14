@@ -1,0 +1,10 @@
+.custom-multi-select,
+.select_multi__control {
+  background-color: #334155 !important;
+}
+.select_multi__multi-value {
+  background-color: #23a653 !important;
+}
+.select_multi__multi-value__label {
+  color: #fff !important;
+}

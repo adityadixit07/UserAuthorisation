@@ -1,0 +1,15 @@
+.modal-wrapper{
+    z-index: 9999;
+}
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  

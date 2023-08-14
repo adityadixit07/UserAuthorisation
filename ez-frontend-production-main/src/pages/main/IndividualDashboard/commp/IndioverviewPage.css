@@ -1,0 +1,239 @@
+._mainoverview {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+}
+
+._overviewbox {
+  margin: 1vw;
+  padding: 1vw;
+  height: 50vh;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  display: flex;
+
+}
+
+.headingmain {
+  margin: 1vw;
+  padding: 1vw;
+
+}
+
+
+.h1Heading {
+  font-size: 2.8rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+
+.ez_overviw {
+  width: 40%;
+  height: 35vh;
+  border-radius: 20px;
+  margin-left: auto;
+  opacity: 0.8;
+}
+
+
+.container {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.item {
+  width: 20%;
+  height: 30vh;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  margin: 1vw;
+  cursor: pointer;
+  background-color: #FFF3FC;
+
+}
+
+.shareIcon {
+  margin: 1vw;
+
+}
+
+
+.PageOveview {
+  margin: 1vw;
+  height: 70vh;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.overviewheading {
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 1vw;
+}
+
+.optionbutton {
+  margin-left: 90vw;
+
+}
+
+.custom-select {
+  display: block;
+  width: 50%;
+  height: 1vh;
+  padding: 10px;
+  font-size: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.custom-select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+
+.pageviews {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.item2 {
+  width: 15%;
+  height: 15vh;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  margin: 1vw;
+  cursor: pointer;
+}
+
+
+.item2:hover {
+  border: 2px solid black;
+}
+
+
+
+.revenue {
+  margin: 1vw;
+  padding: 1vw;
+  height: 30vh;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+
+}
+
+
+
+.invite-friend {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 1vw;
+  background-color: black;
+  color: #ffff;
+}
+
+.invite-friend h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.invite-friend p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.invite-button {
+  background-color: #1DBF73;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.invite-button:hover {
+  background-color: #1DBF73;
+}
+
+.recent-invoice {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #f2f2f2;
+}
+
+
+.paid-button {
+  background-color: green;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.it-1 {
+  margin: 2vw;
+}
+
+/* Media query for laptops and larger screens */
+@media screen and (max-width: 820px) {
+  .item {
+    flex-basis: 70%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin: 1vw;
+    width: 100%;
+    margin-left: 15vw;
+  }
+
+  .item2 {
+    width: 15%;
+    height: 15vh;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin: 1vw;
+    cursor: pointer;
+  }
+
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 300px) {
+  .container {
+    flex-direction: column;
+    /* Displays items vertically */
+    align-items: center;
+    margin: 2vw;
+    display: flex;
+  }
+
+  .item {
+
+    width: 21%;
+    height: 30vh;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+
+  }
+
+}

@@ -1,0 +1,57 @@
+
+.sharebox{
+    width: 35%;
+    height: 50vh;
+    margin-top: 5vw;
+    margin-left: 25vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: white;
+}
+.shareHeading{
+   font-family: sans-serif;
+   font-size: 1.3rem;
+   font-weight: bold;
+   margin: 1vw;
+   
+}
+
+.closeicon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.paragraph{
+    font-family: sans-serif;
+    margin-top: 2vw;
+    margin: 1vw;
+    color: rgb(120, 112, 112);
+    font-size: 0.9rem;
+}
+
+.sociallink{
+    margin-top: 4vw;
+    margin-left: 2vw;
+   
+}
+
+.popover {
+    color: black;
+    top: 100%;
+    margin-top: 2vw;
+    margin: 1vw;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+
+  @media (max-width: 468px) {
+   
+    .sharebox{
+        width: 100%;
+        margin-left: auto;
+        height: 300px;
+    }
+  }

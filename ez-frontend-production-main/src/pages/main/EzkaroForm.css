@@ -1,0 +1,14 @@
+.formbox{
+    width: 50%;
+    align-items: center;
+    margin-left: 25vw;
+}
+
+.closebtn{
+    position: absolute;
+    margin-left: 48vw;
+    margin-top: 1vw;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

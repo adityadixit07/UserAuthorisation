@@ -1,0 +1,134 @@
+
+.shadowing {
+    box-shadow: 0 5px 10px 0px rgb(192, 190, 190);
+}
+
+.shadowing:hover {
+    box-shadow: 0 5px 10px 0px rgb(148, 147, 147);
+}
+
+.cardslider {
+    -webkit-animation: sliding 60s infinite linear;
+    -moz-animation: sliding 60s infinite linear;
+    -o-animation: sliding 60s infinite linear;
+    animation: sliding 60s infinite linear;
+}
+
+.cardslider1 {
+    -webkit-animation: sliding 55s infinite linear;
+    -moz-animation: sliding 55s infinite linear;
+    -o-animation: sliding 55s infinite linear;
+    animation: sliding 55s infinite linear;
+}
+
+.cardslider2 {
+    -webkit-animation: sliding 50s infinite linear;
+    -moz-animation: sliding 50s infinite linear;
+    -o-animation: sliding 50s infinite linear;
+    animation: sliding 50s infinite linear;
+}
+
+@-webkit-keyframes sliding {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-500px);
+    }
+
+    100% {
+        transform: translateY(-1000px);
+    }
+}
+
+@-moz-keyframes sliding {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-500px);
+    }
+
+    100% {
+        transform: translateY(-1000px);
+    }
+}
+
+@-o-keyframes sliding {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-500px);
+    }
+
+    100% {
+        transform: translateY(-1000px);
+    }
+}
+
+@keyframes sliding {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-500px);
+    }
+
+    100% {
+        transform: translateY(-1000px);
+    }
+}
+
+@media(width<=768px) {
+    @keyframes sliding {
+        0% {
+            transform: translateX(0px);
+        }
+    
+        50% {
+            transform: translateX(-500%);
+        }
+    
+        100% {
+            transform: translateX(-1000%);
+        }
+    }
+  }
+/* .a-delay-2 { animation-delay: 3s; }
+.a-delay-2 { animation-delay: 6s; }
+.a-delay-2 { animation-delay: 3s; } */
+
+  
+  /* Responsive animations for mobile and tablet devices */
+  @media (max-width: 768px) {
+    .cardslider {
+      animation: sliding-responsive 60s infinite linear;
+    }
+  
+    .cardslider1 {
+      animation: sliding-responsive 55s infinite linear;
+    }
+  
+    .cardslider2 {
+      animation: sliding-responsive 50s infinite linear;
+    }
+  
+    /* Keyframes for responsive sliding animation */
+    @keyframes sliding-responsive {
+      0% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(-500%);
+      }
+      100% {
+        transform: translateX(-1000%);
+      }
+    }
+  }
+  

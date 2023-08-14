@@ -1,0 +1,35 @@
+.sideButton{
+    background: rgb(194, 189, 189);
+}
+
+.resp{
+    display: flex;
+    flex-direction: row;
+}
+
+@media  screen and (max-width:768px) {
+    .resp{
+        flex-direction: column-reverse;
+    }
+}
+
+.eyeOpen {
+   display: block;
+  }
+  
+  .eyeOpenInverse {
+    display: none;
+  }
+  
+  @media screen and (min-width:768px) {
+    .eyeOpen {
+     display: none;
+    }
+  
+    .eyeOpenInverse {
+     display: block;
+    }
+  }
+  .color{
+    fill:green;   
+  }

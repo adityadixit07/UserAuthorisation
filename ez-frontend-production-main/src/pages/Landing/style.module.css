@@ -1,0 +1,115 @@
+.box_Shadow {
+  box-shadow: inset 0px 0px 23px 4px #3f996e;
+}
+
+.ez_logo {
+  width: 60px;
+  height: 60px;
+}
+
+.ez_logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.login_btn {
+  border-radius: 4px;
+}
+
+.login_border_wrap {
+  padding: 1px;
+  background: linear-gradient(to bottom,
+      rgba(82, 232, 97, 1),
+      rgba(152, 206, 255, 0.79));
+}
+
+.box_Shadow:focus {
+  box-shadow: inset 0px 0px 23px 4px #3f996e;
+}
+
+.heading {
+  color: #29ab70;
+  background-image: -webkit-linear-gradient(45deg, #29ab70 57%, #326796 67%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ez_karoButton {
+  box-shadow: 0 10px 16px -6px #53d562;
+  border-top-color: #53d562;
+  border-bottom-color: #18ffff;
+  border-right-color: #53d562;
+  border-left-color: #18ffff;
+}
+
+.logo {
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
+.ez_list p {
+  display: flex;
+  /* align-items: center; */
+  margin: 4px 0px;
+}
+
+.ez_list p span {
+  color: #666161;
+  font-size: 16px;
+}
+
+.animate_spin {
+  animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navlink {
+  transition: all 0.1s;
+}
+
+.navicon {
+  position: relative;
+  transition: all 0.2s;
+  scale: 1.8;
+  transform: translateY(6px);
+}
+
+.navtext {
+  scale: 0;
+  transition: all 0.2s;
+}
+
+.navlink:hover .navicon {
+  scale: 1.4;
+  transform: translateY(0px);
+}
+
+.navlink:active .navicon .navtext {
+  scale: 1;
+}
+
+.navlink .box {
+  padding: 8px;
+  transition: all 0.2s;
+}
+
+.navlink:hover .box {
+  /* border-top: 2px solid green; */
+  border-bottom: 2px solid green;
+  padding: 4px;
+  padding-top: 8px;
+  background: rgba(0, 128, 0, 0.071);
+}
+
+.navlink:hover .navtext {
+  scale: 1;
+}

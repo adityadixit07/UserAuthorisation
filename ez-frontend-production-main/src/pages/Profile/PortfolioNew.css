@@ -1,0 +1,144 @@
+.labelshadow {
+  box-shadow: 0px 3px 5px 0px gray;
+}
+
+.label-box {
+  position: relative;
+  display: inline-block;
+  background-color: #f0f5ef;
+  width: 290px;
+  border: 2px solid #027445;
+  padding: 10px;
+  box-shadow: 5px 5px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.customeditor .ql-editor {
+  height: 120px;
+}
+
+.customeditor .ql-toolbar {
+  background-color: #e2d9d9;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.customeditor .ql-toolbar .ql-picker-label {
+  color: #333;
+  font-weight: bold;
+}
+
+.label-bop {
+  position: relative;
+  display: inline-block;
+  width: 290px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.label-icon {
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  transform: translateY(-50%);
+  color: green;
+}
+
+.label-text {
+  margin-left: 80px;
+}
+
+.form-group {
+  display: flex;
+}
+
+.form-group .form-control {
+  width: 500px;
+  font-size: 16px;
+}
+
+.icon-container {
+  position: relative;
+  top: 0%;
+  left: 22%;
+  box-shadow: inset;
+  height: 50%;
+  transform: translateY(0%);
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  position: absolute;
+  color: #12b13a;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #059725;
+}
+
+.button {
+  margin-left: 880px;
+  background-color: #3ef068;
+  color: #f7f5f5;
+}
+
+.button-for-collaborator {
+  margin-left: 530px;
+  background-color: #3ef068;
+  color: #f7f5f5;
+}
+
+.draft {
+  margin-left: 100px;
+  background-color: #f0f1f0;
+  color: #ebc8c8;
+}
+
+.iconic {
+  color: #069324;
+  cursor: grabbing;
+  position: relative;
+  border: none;
+  right: -150px;
+  padding: 5px;
+  background-color: #1f7938;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  width: 10%;
+  height: 10%;
+  box-sizing: border-box;
+  resize: none;
+  justify-content: space-between;
+}
+
+.iconic:hover {
+  color: #b90707;
+}
+
+.PhoneInput {
+  width: 100%;
+  padding-left: 5px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+.PhoneInput .PhoneInputInput {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.react-tel-input .form-control {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 14px;
+  height: 100%;
+  border: none;
+  width: 100%;
+  outline: none;
+}

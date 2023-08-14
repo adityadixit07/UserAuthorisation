@@ -1,0 +1,41 @@
+.borderblob{
+    border-radius: 40% 60% 70% 30% / 54% 55% 45% 46% ;
+}
+.borderdrop{
+    border-radius: 56% 44% 100% 0% / 100% 55% 45% 0% ;
+}
+
+.innershadow1:hover{
+    box-shadow:inset 0 0 10px 2px white;
+}
+.shadow1{
+    box-shadow: 0px 3px 5px 0px rgba(21, 20, 20, 0.212);
+
+}
+.innershadow2:hover{
+    box-shadow: inset 0px 0px 23px 4px #3F996E;
+}
+.animatesli::after{
+    content: '';
+    display: block;
+    width:100%;
+}
+
+.borderbt{
+    border-radius: 300px 0px 300px 0px;
+}
+
+.sdgfdh{
+    width: 100px;
+    height: 100px;
+}
+
+
+.slidcontainer{
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+.slidcontainer::-webkit-scrollbar{
+    width:0;
+}

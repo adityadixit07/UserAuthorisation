@@ -1,0 +1,157 @@
+.getStart {
+  margin: 2vw;
+}
+
+.getStartheading {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.circleimage {
+  width: 2.5vw;
+  height: auto;
+  display: inline-block
+}
+
+.profile-completion-bar {
+  background-color: #e0e0e0;
+  border-radius: 0 20px 20px 0;
+  padding: 2px;
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.profile-completion-bar > div {
+  background-color: #c4f465;
+  height: 12px;
+  border-radius: 0 20px 20px 0;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  /* transition: width 3s ease-in-out; */
+}
+
+.profile-completion-circle {
+  background-color: #3DDA8F;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  top: -48px;
+  transform: translateX(-50%);
+}
+
+.profile-completion-pointer {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #3DDA8F;
+  position: absolute;
+  bottom: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.progress-bar {
+  width: 10%;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 2vw;
+}
+
+.progress {
+  height: 100%;
+  background-color: #c4f465;
+  transition: width 0.3s ease-in-out;
+}
+
+/* Example completion level */
+.progress.completed {
+  width: 75%;
+}
+
+
+.checkBoxget {
+  margin: 2vw;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.checkbox {
+  display: none;
+  /* Hide the actual checkbox */
+}
+
+.checkBoxgetinline {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .checkBoxgetinline {
+    padding: 10px;
+  }
+}
+
+.checkbox-label {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #090909;
+  border-radius: 60%;
+  padding-bottom: 7px;
+}
+
+
+.checkbox:checked + .checkbox-label {
+  position: relative;
+}
+
+.checkbox:checked + .checkbox-label::before {
+  content: '\2714'; 
+  /* Unicode for tick mark */
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)rotate(370deg);
+  
+  
+  font-size: 30px; /* Adjust as needed */
+  color: #35b175; /* Tick mark color */
+}
+
+
+.checkbox-label.checked::before {
+  background-color: green;
+}
+
+.checkbox-label::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 12px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  margin: 9px auto;
+  opacity:0;
+}
+.checkbox-label.checked::after {
+  opacity: 1;
+}
+.checkbox:checked+.checkbox-label:after {
+  visibility: visible;
+}
+.checked {
+  color: green;
+  /* Add your checkmark styles here */
+}

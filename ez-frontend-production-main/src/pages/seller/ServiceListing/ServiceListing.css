@@ -1,0 +1,27 @@
+.profileLocationButton {
+    box-shadow: 0 5px 10px 0px rgb(192, 190, 190);
+}
+
+.upperBtns {
+    box-shadow: inset 0 0 10px #464646;
+}
+
+.upperBtnActive {
+    box-shadow: inset 0 0 10px #3DF554;
+}
+
+.bookings {
+    box-shadow: 0 5px 10px 0px rgb(192, 190, 190);
+}
+
+.resourcesCard {
+    box-shadow: 0 5px 10px 0px rgb(192, 190, 190);
+}
+
+.workshopCard {
+    box-shadow: 0 5px 10px 0px rgb(192, 190, 190);
+}
+
+.workshopEventTags {
+    box-shadow: 0 5px 10px 0px rgb(192, 190, 190);
+}
