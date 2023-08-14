@@ -8,7 +8,7 @@ const ProfileBoxContainer = ({linkUrl,dataName,imageUrl}) => {
   return (
     <Link
     to={linkUrl}
-    className="profileboxcont rounded-[10px] bg-[#f9f0f6] relative flex flex-col justify-end p-3 text-[12px] font-normal items-center "
+    className="profileboxcont rounded-[10px] bg-[#E1E1E1] relative flex flex-col justify-end p-3 text-[12px] font-normal items-center "
   >
     <FaPlusCircle
       className="absolute right-5 top-2 fill-[#47474b]"

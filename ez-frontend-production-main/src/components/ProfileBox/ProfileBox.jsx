@@ -9,7 +9,10 @@ import ProfileBoxContainer from "./ProfileBoxContainer";
 const ProfileBox = ({ setOpenComingSoon, profileRoute }) => {
   return (
     <>
-      <div className=" profile-box1 mt-10 pt-4 overflow-auto " style={{width:"95%"}}>
+      <div
+        className=" profile-box1 mt-10 pt-4 overflow-auto "
+        style={{ width: "95%" }}
+      >
         {/* <div className="profile-header"></div> */}
         <div className="flex items-center justify-between gap-10 ml-2 rounded-[15px]">
           <ProfileBoxContainer
