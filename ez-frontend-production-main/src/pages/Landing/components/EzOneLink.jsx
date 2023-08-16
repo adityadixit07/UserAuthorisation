@@ -3,6 +3,7 @@ import "antd"
 import classNames from "classnames";
 import onetooneconsultation from '../../../assets/ez-logo/onetooneConsultation.png'
 import addAccordianIcon from '../../../assets/ez-logo/addAccordianIcon.svg'
+import './ezonelink.css'
 
 const { Panel } = Collapse;
 
@@ -38,9 +39,10 @@ const panelClasses = classNames(
 
 
 const iconStyle = {
-    widht: '19.51px',
+    width: '19.51px',
     height: "19.51px", 
   };
+
 const CommunityDescription = () => {
   return (
     <div className="bg-white  px-[0rem] py-24 w-full " style={{padding:'0 5rem'}}>
@@ -53,7 +55,7 @@ const CommunityDescription = () => {
 
       <div className="flex flex-col md:flex-row p-8 justify-around items-center">
 {/* accordian */}
-        <div className="w-full md:w-1/2 mt-5 md:p-5">
+        <div className="w-full md:w-1/2 mt-5 md:p-5 accordian-sec">
           <Collapse accordion ActiveKey={["1", "2", "3", "4", "5", "6"]} ghost>
             <Panel
               header="the Power of eZ One-Link"
@@ -106,7 +108,7 @@ const CommunityDescription = () => {
         </div>
         {/* image */}
         <div className="w-full md:w-1/2 flex justify-items-end" >
-          <img src={onetooneconsultation} alt="one-to-one-consultation"  style={{maxWidth:"700px",maxHeight:"80%",objectFit:"cover",}}/>
+          <img src={onetooneconsultation} alt="one-to-one-consultation" className="one-one-cosultation"  style={{maxWidth:"700px",maxHeight:"80%",objectFit:"cover",}}/>
         </div>
       </div>
     </div>

@@ -49,14 +49,11 @@ const LandingPage = () => {
           <div className="bg-white">
             <MarketStrategy />
             <BeautifulPortFolioLink/>
-            <UiDesigners/>
-            {/* <InspiringData/> */}
             <ThousandOfInspiring/>
             <Ez_karo />
             <UserSliding />
             <LapMob />
             <EzOneLink />
-            {/* <ProfessionalSlider /> */}
             <InifiniteLoop />
             <SaveHours />
             <BuildFunnel />

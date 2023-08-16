@@ -22,31 +22,17 @@ function UserSliding() {
           {/* <div className="md:h-[75vh] md:px-16 md:py-20 flex flex-col md:items-start items-center md:gap-5"> */}
           <div className="md:h-[100vh] md:px-16 md:py-20 flex flex-col md:items-start items-center justify-center md:gap-5">
             <TypingEffect />
-            {/* <div className="hidden md:flex flex-col gap-3"> */}
             <div className="hidden md:flex flex-col gap-3 px-5 md:px-0 pb-5">
-              {/* <button 
-                className="p-3 m-3 bg-green-400 text-white flex justify-center items-center font-semibold border border-black gap-1 rounded-full hover:text-black hover:bg-green-500"
-              >
-                Join Now For Free{" "}
-                <RiArrowDropDownLine className="-rotate-90" size={25} />
-              </button> */}
-              {/* <h3 className="text-base font-semibold text-slate-700">
-                SKIP THE TRIAL-AND-ERROR. GET AN EXPERT
-              </h3> */}
               <div className="flex flex-row gap-5">
                 <div className="flex flex-col space-y-4">
                   <p className="flex gap-2 items-center text-lg text-slate-500">
                     <span>
-                      {" "}
-                      {/* <BsFillCheckCircleFill className="fill-black" /> */}
                       <CgProfile />
                     </span>
-                    <span>Your Own Customised Profile</span>{" "}
+                    <span>Your Own Customised Profile</span>
                   </p>
                   <p className="flex gap-2 items-center text-lg text-slate-500">
                     <span>
-                      {" "}
-                      {/* <BsFillCheckCircleFill className="fill-black" /> */}
                       <IoRocketOutline />
                     </span>
                     <span>Create Service Listings in a Flash</span>
@@ -54,7 +40,6 @@ function UserSliding() {
                   <p className="flex gap-2 items-center text-lg text-slate-500">
                     <span>
                       {" "}
-                      {/* <BsFillCheckCircleFill className="fill-black" /> */}
                       <IoPeopleOutline />
                     </span>
                     <span>Conduct 1:1 Consultations</span>
@@ -63,24 +48,18 @@ function UserSliding() {
                 <div className="flex flex-col space-y-4">
                   <p className="flex gap-2 items-center text-lg text-slate-500">
                     <span>
-                      {" "}
-                      {/* <BsFillCheckCircleFill className="fill-black" /> */}
                       <BsBoxSeam />
                     </span>
                     <span>Conduct Workshops / Courses</span>{" "}
                   </p>
                   <p className="flex gap-2 items-center text-lg text-slate-500">
                     <span>
-                      {" "}
-                      {/* <BsFillCheckCircleFill className="fill-black" /> */}
                       <LuStars />
                     </span>
                     <span>Monetize Your Influencing Power</span>
                   </p>
                   <p className="flex gap-2 items-center text-lg text-slate-500">
                     <span>
-                      {" "}
-                      {/* <BsFillCheckCircleFill className="fill-black" /> */}
                       <AiOutlineBulb />
                     </span>
                     <span>0% Commission</span>
